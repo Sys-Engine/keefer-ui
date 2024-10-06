@@ -5,6 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>keefer law project</title>
 <style>
+    @media only screen and (max-width: 1000px) { 
+        .second-menu-width{
+display: none !important;       
+}
+.menu{
+    display: none !important; 
+}
+.maincontainer{
+    overflow: hidden;
+}
+.second-family{
+    width: 350px !important;
+    flex-wrap: wrap;
+}
+.second-sec p{
+    font-size: 15px !important;
+    width: 328px !important;
+}
+.second-last{
+    width: 318px;
+    height: 290px;
+}
+.over30{
+display: flex;
+justify-content: center;
+}
+.first-image{
+width: 349px;
+}
+.call-help{
+    width: 349px !important;
+}
+.shadow{
+    display: none !important;
+}
+.image{
+    width: fit-content !important;
+}
+.secon-image{
+   width: 350px !important;
+}
+.question-second{
+    height:51px !important ;
+}
+#for-name{
+    height: 93px !important;
+    justify-content: space-evenly !important;
+}
+.image-last{
+    height: 56px !important;
+}
+.confidential{
+top: 116px !important;
+right: 9px !important;
+height: 26px !important;
+transform: rotate(15deg) !important ;
+}
+.third{
+    width: 356px !important;
+}
+
+.container-first{
+    justify-content: center !important;
+}
+.first-sec{
+    height: 37pc !important;
+}
+.third-sec h2{
+font-size: 16px !important;
+}
+.third p{
+    width: 161px !important;
+}
+.keefer{
+    width: 155px;
+}
+.third-secc-third{
+    top: -1px !important;
+    left: 35px !important;
+    width: 98px !important;
+}
+.keffer-line{
+width: 150px !important;
+}
+.download{
+    width: 186px !important;
+}
+.third-sec h2{
+    font-size: 16px !important;
+}
+.third-p{
+    width: 161px !important;
+    font-size: 14PX !important;
+}
+.keeper-second-line{
+    width: 149px !important;
+}
+.last-section p{
+    font-size: 15px !important;
+}
+.contact{
+    width: 186px !important;
+}
+.client{
+    padding-left: 71px !important;
+}
+.national{
+    padding-left: 9pc !important;
+}
+.third-sec{
+    width: 476px !important;
+}
+.follow h3{
+    padding-left: 24px;
+}
+.follow{
+    display: flow!important;
+    padding-left: 8pc !important;
+}
+     }
+    @font-face{
+    font-family:"PERTID";
+    src: url("/project4.html/dropbox /Text\ Regular\ Regular.ttf/PERTIBD.TTF");
+    }
+    @font-face{
+    font-family:"Bond";
+    src: url("/project4.html/dropbox /Text\ Regular\ Regular.ttf/PERTIBD.TTF");
+    }
     body{
         margin: 0;
     }
@@ -16,13 +144,12 @@
     }
     .container{
         width: 1851px;
-        height: 1500px;
+        /* height: 1833px; */
         background: white;
 }
 /* first contact office */
 .container-first{
     /* width: 1360px; */
-    border: 1px solid rgba(50, 162, 170, 0.678);
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -136,21 +263,19 @@ margin: 0;
 .second-family{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 29px;
     padding-top: 33px;
-    align-content: flex-end;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .image{
-    width: 360px;
-    height: 315px;
-    background-image: url("form_bg.jpg");
+    width: 371px;
+    background-image: url(form_bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: normal;
     position: relative;
 }
 .image .question{
@@ -161,13 +286,13 @@ background-color: #910808;
 }
 .question h4{
     margin: auto;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: bolder;
     color: white;
-    font-family:serif;
+    font-family:"PERTID" , monospace;
 }
 .question-second{
-    height: 53px;
+    height: 38px;
     width: 199px;
     
 }
@@ -227,6 +352,7 @@ background-color: #910808;
     display: inline;
     font-size: 11px;
     font-weight: 700;
+    cursor: default;
     font-family: sans-serif;
     letter-spacing: 0.1px;
     padding-left: 13px;
@@ -271,6 +397,7 @@ input {
     font-size: 17px;
     font-weight: 500;
     font-family: math;
+    cursor: pointer;
 } 
 .third-family{
     display: flex;
@@ -291,6 +418,7 @@ input {
     font-size: 22px;
     font-weight: 700;
     margin: 0;
+    cursor: default;
     width: 267px;
     font-family: sans-serif;
     line-height: 33px;
@@ -301,6 +429,7 @@ input {
 .third-first h2{
     margin: 0;
     font-size: 17px;
+    cursor: default;
     font-family: sans-serif;
     width: 206px;
     font-weight: 700;
@@ -311,12 +440,14 @@ input {
     width: 172px;
     font-size: 15px;
     font-weight: 500;
+    cursor: pointer;
     font-family: sans-serif;
     color: #5f5757;
 }
 .third-first h3{
     margin-bottom: 0;
     width: 166px;
+    cursor: pointer;
     font-size: 15px;
     font-weight: 500;
     font-family: sans-serif;
@@ -344,6 +475,7 @@ background-color: #aa1c1c;
 .third-click h5{
     margin: auto;
     color: white;
+    cursor: pointer;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -361,6 +493,7 @@ background-color: #aa1c1c;
     font-size: 22px;
     font-weight: 700;
     margin: 0;
+    cursor: default;
     width: 122px;
     line-height: 33px;
     font-family: sans-serif; 
@@ -373,6 +506,7 @@ background-color: #aa1c1c;
     font-size: 12px;
     font-family: sans-serif;
     width: 119px;
+    cursor: pointer;
     font-weight: 700;
     color: #5f5757;
     padding-left: 26px;
@@ -406,6 +540,7 @@ left: 56px;
 .second-red h3{
     margin: auto;
     color: white;
+    cursor: pointer;
     font-family: sans-serif;
     font-weight: 500;
     font-size: small;
@@ -423,6 +558,7 @@ left: 56px;
     height: 35px;
     width: fit-content;
     margin: 0;
+    cursor: pointer;
     padding-left: 25px;
     font-family: sans-serif;
     font-size: 13px;
@@ -441,6 +577,7 @@ left: 58px;
 .second-last h5{
     margin: auto;
     color: white;
+    cursor: pointer;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -457,6 +594,7 @@ left: 58px;
 }
 .third-last h4{
     width: 188px;
+    cursor: default;
     font-size: 22px;
     font-weight: 700;
     margin: 0;
@@ -466,6 +604,7 @@ left: 58px;
 .third-last h5{
     height: 35px;
     width: 245px;
+    cursor: pointer;
     margin: 0;
     font-family: sans-serif;
     font-weight: 600;
@@ -490,9 +629,258 @@ left: 58px;
 #third-last h6{
     margin: auto;
     color: white;
+    cursor: pointer;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 13px;
+}
+.last-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 28px;
+    padding-top: 36px;
+} 
+.practice h1{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    cursor: default;
+    width: 194px;
+    line-height: 33px;
+    font-family: sans-serif;
+}
+.practice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24pc;
+    padding-left: 7px;
+    width: 288px;
+}
+.practice span{
+color: #8f2f2f;
+}
+.first-sec{
+    width: 293px;
+    height: 56pc;
+}
+.first-box{
+    width: 278px;
+    height: 71px;
+    background-color: rgb(161 156 156);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.first-box h4{
+    height: 35px;
+    margin: 0;
+    cursor: default;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    padding-top: 9px;
+    padding-left: 6px;
+    color: white;
+}
+.first-box h5{
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 44px 16px 0px 0px;
+}
+.play-button{
+    width: 14px;
+    height: 12px;
+}
+.first-box h6{
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: inherit;
+}
+.second-box{ 
+    width: 278px;
+    height: 71px;
+    /* border: 1px solid red; */
+    background-color: rgb(161 156 156);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.second-box h4{
+    height: 35px;
+    margin: 0;
+    cursor: default;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    padding-top: 9px;
+    padding-right: 11px;
+    color: white;
+}
+.second-box h6{
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: inherit;
+    position: relative;
+    left: 116px;
+    width: 132px;
+}
+.more-about{
+    width: 275px;
+    height: 210px;
+    padding-top: 26px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.more-about h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: serif;
+    cursor: default;
+    margin: 0;
+}
+.more-about span{
+    color: #8f2f2f;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.area h2{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: hsl(9 3% 78% / 6);
+    letter-spacing: 1.1px;
+    margin-bottom: 0;
+    line-height: 30.1px;
+}
+.area h3{
+    margin: 0;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 31.1px;
+    color: hsl(9 3% 78% / 44);
+}
+.area h4{
+    color: hsl(9 3% 78% / 44);
+    margin: 0;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 33px;
+    font-family: sans-serif;
+}
+.last-section p{
+    margin: 0;
+    width: 475px; 
+}
+.third-sec{
+    width: 185px;
+}
+.third-sec h2{
+    margin: 0;
+    font-size: 21px;
+    cursor: default;
+    line-height: 26.1px;
+    width: auto;
+}
+.third-sec p{
+    width: 171px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 00;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 2px;
+    color: lab(55.76 0.37 1.24 / 1);
+}
+.third-secc-third{
+    width: 98px;
+    height: 23px;
+    background-color: #aa1c1c;
+    position: relative;
+    left: 51px;
+    top: -1px;
+    display: flex;
+}
+.third-secc-third h5{
+    margin: auto;
+    width: 95px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+padding: 3px 4px 4px 4px;
+}
+.national{
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 32px;
+    width: max-content;
+}
+.follow span{
+    color:#8f2f2f ;
+}
+.follow h3{
+    font-size: 21px;
+    color: #4d4c4c;
+    margin-bottom: 3px;
+    cursor: default;
+}
+.client{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 96px;
+}
+.finish{
+    padding-top: 16px;
+    width: 183px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.second-sec h2{
+    margin: 3px;
+    font-size: 25px;
+    color: #201616;
+}
+.second-sec p{
+    font-size: 15px;
+    padding-top: 18px;
+    width: 494px;
 }
 </style>
 </head>
@@ -501,7 +889,7 @@ left: 58px;
 <div class="container">
 <div class="container-first">
     <!-- logo -->
-<img src="/project4.html/dropbox/looo.png" alt="">
+<img class="first-image" src="/project4.html/dropbox/looo.png" alt="">
 <!-- end -->
 <div class="call-help">
 <h3>CALL OUR OFFICE NOW!</h3>
@@ -524,9 +912,9 @@ left: 58px;
     </div>
 </div>
 </div>
-
+<div class="over30">
     <div class="second-family">
-        <img src="/project4.html/dropbox/gurantee_banner.gif" alt="" style="width: 501px; height: 315px;">
+        <img class="secon-image" src="/project4.html/dropbox/gurantee_banner.gif" alt="">
 <div class="image">
 <div class="question">
 <h4>QUESTIONS?</h4>
@@ -552,10 +940,10 @@ left: 58px;
         <input type="text" placeholder="">
     </div>
 </div> <img class="confidential" src="/project4.html/dropbox/confidential.png" alt="" style="   position: absolute;
-top: 129px;
-right: 15px;
+top: 119px;
+right: 9px;
 transform: rotate(18deg);
-height: 26px;
+height: 28px;
 ">
 <!--  -->
 <input id="tell" type="textareas" placeholder="Tell us about your case here...">
@@ -567,6 +955,8 @@ height: 26px;
 </div>
 </div>
 </div>
+</div>
+
 <!--  -->
 <div class="third-family">
 <div class="third-first">
@@ -642,7 +1032,117 @@ top: 217px;">
         <h6>CLICK HERE &nbsp; <img src="/project4.html//dropbox/bullet_white.gif" alt=""> </h6> 
     </div>
 </div>
-<img src="/project4.html//dropbox/hr_shadow.png" alt="">
+<img class="shadow" src="/project4.html//dropbox/hr_shadow.png" alt="">
+</div>
+<div class="thirdmaincontainer">
+    <div class="last-section">
+        <div class="first-sec">
+        <div class="practice">
+            <h1>Practice <span>AREAS</span></h1>
+<!--  -->
+            <div class="first-box">
+            <hr style="height: 71px; margin: 0 ; width:13px;border: 0;
+background-color: #aa1c1c;">
+<h4>DUI & DWI</h4>
+<h5>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h5>
+</div>
+<!--  -->
+<div class="second-box">
+    <hr style="height: 81px; margin: 0 ; width:13px;border: 0;
+background-color: #aa1c1c;">
+    <h4>RECKLESS DRIVING</h4>
+    <h6>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h6>
+</div>
+
+<div class="second-box">
+    <hr style="height: 81px; margin: 0 ; width:13px;border: 0;
+background-color: #aa1c1c;">
+    <h4>SPEEDING TICKETS</h4>
+    <h6>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h6>
+</div>
+
+<div class="second-box">
+    <hr style="height: 81px; margin: 0 ; width:13px;border: 0;
+background-color: #aa1c1c;">
+    <h4>TRAFFIC VIOLATIONS</h4>
+    <h6>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h6>
+</div>
+        </div>
+        <div class="more-about">
+<h1> LEARN <span> MORE</span> ABOUT</h1>
+<div class="area">
+    <h2>MENU</h2>
+    <h3>AREA</h3>
+    <h4>HERE</h4>
+</div>
+</div>
+</div>
+<div class="second-sec">
+    <h2>&#60;H1&#62; PAGE TITLE HERE 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae mollitia adipisci non accusamus, iusto assumenda est nesciunt ducimus, voluptatum, rerum eaque? Soluta nisi quasi architecto nesciunt cum placeat aperiam alias.
+            Iusto quam, a ratione vitae voluptatem sint sequi nemo veritatis quaerat excepturi quasi unde odio et neque vel. Pariatur aliquid vero, repellendus voluptatum possimus vitae laboriosam magni quas fugit odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quidem deserunt repudiandae beatae itaque sequi voluptatibus, explicabo praesentium placeat doloribus voluptates qui consectetur?</p>
+        </h2>
+    </div>
+<div class="third-sec">
+    <div class="client">
+<div class="keefer">
+<h2>CLIENT<br> <span style="color: #8f2f2f;">TESTIMONIALS</span> </h2>
+<p>Read what others say <br> about Keefer law Firm.</p>
+<hr class="keffer-line" style="width: 184px;
+margin: 0;
+background-color: #111010;
+margin-top: 15px;">
+<div class="third-secc-third">
+    <h5>CLICK HERE &nbsp; <img src="/project4.html//dropbox/bullet_white.gif" alt="" style="width: 6px;"> </h5> 
+</div>
+</div>
+<!--  -->
+<div class="download">
+<div class="third-sec">
+    <h2>DOWNLOAD<br> <span style="color: #8f2f2f;">FREE</span> REPORTS</h2>
+    <p>Discover the truth about<br> Virginial Law.</p>
+    <hr class="keeper-second-line" class="" style="width: 184px;
+    margin: 0;
+    background-color: #111010;
+    margin-top: 15px;">
+    <div class="third-secc-third">
+        <h5>CLICK HERE &nbsp; <img src="/project4.html//dropbox/bullet_white.gif" alt="" style="width: 6px;"> </h5> 
+    </div>
+</div>
+</div>
+    <!--  -->
+<div class="contact">
+    <div class="third-sec">
+        <h2>CONTACT <span style="color: #8f2f2f;">OUR</span> <br>  REPORTS </h2>
+        <p>Get your question<br>answered now.</p>
+        <hr class="keeper-second-line" style="width: 184px;
+        margin: 0;
+        background-color: #111010;
+        margin-top: 15px;">
+        <div class="third-secc-third">
+            <h5>CLICK HERE &nbsp; <img src="/project4.html//dropbox/bullet_white.gif" alt="" style="width: 6px;"> </h5> 
+        </div>
+
+</div>
+
+    <!--  -->
+</div>
+</div>
+<div class="national">
+    <img src="/project4.html/dropbox/avo_rating_large.gif" alt="">
+    <img src="/project4.html/dropbox/national_college_large.gif" alt="">
+</div>
+<div class="follow">
+    <h3>FOLLOW <span>US</span></h3>
+    <hr style="    width: 165px;
+    margin: 0;">
+    <div class="finish">
+        <img src="/project4.html/dropbox/fb_icon.gif" alt="" style="cursor: pointer;">
+        <img src="/project4.html/dropbox/google_icon.gif" alt=""style="cursor: pointer;">
+        <img src="/project4.html//dropbox/twitter_icon.gif" alt=""style="cursor: pointer;">
+        <img src="/project4.html/dropbox/linked_icon.gif" alt=""style="cursor: pointer;">
+    </div>
+</div>
 </div>
 </div>
 </div>
