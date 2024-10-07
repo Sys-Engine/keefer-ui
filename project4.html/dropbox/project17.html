@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>keefer law project</title>
 <style>
-    @media only screen and (max-width: 1000px) { 
+    @media only screen and (max-width: 1283px) { 
         .second-menu-width{
 display: none !important;       
 }
 .menu{
     display: none !important; 
+}
+.container{
+    height: 210pc !important;
 }
 .maincontainer{
     overflow: hidden;
@@ -18,6 +21,7 @@ display: none !important;
 .second-family{
     width: 350px !important;
     flex-wrap: wrap;
+    padding-right: 0px !important;
 }
 .second-sec p{
     font-size: 15px !important;
@@ -67,13 +71,14 @@ transform: rotate(15deg) !important ;
 }
 
 .container-first{
-    justify-content: center !important;
+    padding-left: 58px;
+    padding-top: 14px;
 }
 .first-sec{
     height: 37pc !important;
 }
 .third-sec h2{
-font-size: 16px !important;
+    font-size: 16px !important;
 }
 .third p{
     width: 161px !important;
@@ -103,7 +108,7 @@ width: 150px !important;
     width: 149px !important;
 }
 .last-section p{
-    font-size: 15px !important;
+    font-size: 13px !important;
 }
 .contact{
     width: 186px !important;
@@ -112,7 +117,7 @@ width: 150px !important;
     padding-left: 71px !important;
 }
 .national{
-    padding-left: 9pc !important;
+    padding-left: 10pc !important;
 }
 .third-sec{
     width: 476px !important;
@@ -122,17 +127,22 @@ width: 150px !important;
 }
 .follow{
     display: flow!important;
-    padding-left: 8pc !important;
+    padding-left: 9pc !important;
 }
+
      }
-    @font-face{
+     @font-face{
     font-family:"PERTID";
     src: url("/project4.html/dropbox /Text\ Regular\ Regular.ttf/PERTIBD.TTF");
     }
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Qwitcher+Grypen:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     @font-face{
-    font-family:"Bond";
-    src: url("/project4.html/dropbox /Text\ Regular\ Regular.ttf/PERTIBD.TTF");
+        font-family:"Bond";
+        src: url("/project4.html/dropbox /Text\ Regular\ Regular.ttf/PERTIBD.TTF");
     }
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    
     body{
         margin: 0;
     }
@@ -140,12 +150,13 @@ width: 150px !important;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: grey;
+        background-color: #878282;
     }
     .container{
         width: 1851px;
         /* height: 1833px; */
         background: white;
+        border-bottom: 17px solid #732424; 
 }
 /* first contact office */
 .container-first{
@@ -238,19 +249,17 @@ font-size:19px;
 cursor: pointer;
 letter-spacing: 1.1px;
 margin: 0;
-
 }
 .menu-width{
     height: 63px;
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 38px;
 }
 .second-menu-width{
-
     display: flex;
     flex-direction: row;
-    gap: 28px;
+    gap: 72px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -265,6 +274,7 @@ margin: 0;
     flex-direction: row;
     gap: 29px;
     padding-top: 33px;
+    padding-right: 80px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -288,6 +298,7 @@ background-color: #910808;
     margin: auto;
     font-size: 21px;
     font-weight: bolder;
+cursor: pointer;
     color: white;
     font-family:"PERTID" , monospace;
 }
@@ -303,6 +314,7 @@ background-color: #910808;
     color: #1f1f1f;
     font-family: system-ui;
     width: 172px;
+    cursor: default;
     font-weight: 700;
     padding-top: 6px;
 }
@@ -315,8 +327,10 @@ background-color: #910808;
     font-family: sans-serif;
     letter-spacing: 1.1px;
 }
+
 .image p {
     margin: 0;
+    cursor:pointer;
     height: 36px;
     font-size: 12px;
     line-height: 17px;
@@ -327,6 +341,7 @@ background-color: #910808;
     color: #4c5257;
     width: 340px;
 }
+
 .image p span{
     font-size: 15px;
     line-height: 10px;
@@ -363,10 +378,14 @@ input {
     height: 19px;
     border: 0.5px solid #c0c0c0;
 }
-#tell {
-    height: 59px;
+ #tell {
     width: 320px;
     margin-left: 17px;
+    font-weight: 600;
+padding-bottom: 40px;
+}
+#tell::placeholder{
+    color:rgb(71, 69, 69) ;
 }
 .image-last{
     height: 41px;
@@ -377,12 +396,13 @@ input {
 }
 .image-last h5{
     margin: 0;
-    font-size: 9px;
-    letter-spacing: 1.1px;
-    width: 131px;
-    height: 10px;
-    color:rgb(118 87 87);
-    font-family: none;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    color: rgb(58 57 57);
+    font-family: "Qwitcher Grypen", cursive;
     padding-left: 5px;
 }
 .ask-about{
@@ -416,11 +436,11 @@ input {
 }
 .third-first h1{
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
     cursor: default;
     width: 267px;
-    font-family: sans-serif;
+    font-family: "Lora", serif;
     line-height: 33px;
 }
 .third-first span{
@@ -428,7 +448,7 @@ input {
 }
 .third-first h2{
     margin: 0;
-    font-size: 17px;
+    font-size: 15px;
     cursor: default;
     font-family: sans-serif;
     width: 206px;
@@ -478,7 +498,9 @@ background-color: #aa1c1c;
     cursor: pointer;
     font-family: sans-serif;
     font-weight: 600;
+    box-shadow: 0px 8px 23px 2px #595454;
 }
+
 .third-second{
     height: 265px;
     border-left: 1px solid #dbdbdb;
@@ -496,7 +518,7 @@ background-color: #aa1c1c;
     cursor: default;
     width: 122px;
     line-height: 33px;
-    font-family: sans-serif; 
+    font-family: "loro ,sanis"; 
     margin-left: 24px;
 }
 .third-second span{
@@ -535,7 +557,7 @@ background-color: #aa1c1c;
 position: absolute;
 top: 80px;
 left: 56px;
-    display: flex;
+display: flex;
 }
 .second-red h3{
     margin: auto;
@@ -544,6 +566,7 @@ left: 56px;
     font-family: sans-serif;
     font-weight: 500;
     font-size: small;
+    box-shadow: 0px 8px 23px 2px #595454;
 }
 .third-red h1{
     font-size: 22px;
@@ -552,15 +575,14 @@ left: 56px;
     margin-left: 24px;
     width: 169px;
     line-height: 33px;
-    font-family: sans-serif;
+    font-family:"loro" , serif;
 }
 .third-second h4{
     height: 35px;
     width: fit-content;
     margin: 0;
     cursor: pointer;
-    padding-left: 25px;
-    font-family: sans-serif;
+    padding-left: 25px;;
     font-size: 13px;
     font-weight: 600;
     color: #5f5757;
@@ -572,7 +594,7 @@ left: 56px;
     position: absolute;
     bottom: 24px;
 left: 58px;
-    display: flex;
+    display: flex; 
 }
 .second-last h5{
     margin: auto;
@@ -580,6 +602,7 @@ left: 58px;
     cursor: pointer;
     font-family: sans-serif;
     font-weight: 600;
+    box-shadow: 0px 8px 23px 2px #595454;
 }
 /*  */
 .third-last{
@@ -599,7 +622,7 @@ left: 58px;
     font-weight: 700;
     margin: 0;
     line-height: 22px;
-    font-family: sans-serif;
+    font-family: "loro" ,serif;
 }
 .third-last h5{
     height: 35px;
@@ -630,6 +653,7 @@ left: 58px;
     margin: auto;
     color: white;
     cursor: pointer;
+    box-shadow: 0px 8px 23px 2px #595454;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 13px;
@@ -651,7 +675,7 @@ left: 58px;
     cursor: default;
     width: 194px;
     line-height: 33px;
-    font-family: sans-serif;
+    font-family: "loro , serif";
 }
 .practice{
     display: flex;
@@ -671,7 +695,7 @@ color: #8f2f2f;
 .first-box{
     width: 278px;
     height: 71px;
-    background-color: rgb(161 156 156);
+    background-color: hwb(0deg 46.46% 48.61%);
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -711,7 +735,7 @@ color: #8f2f2f;
     width: 278px;
     height: 71px;
     /* border: 1px solid red; */
-    background-color: rgb(161 156 156);
+    background-color: hwb(0deg 46.46% 48.61%);
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -765,7 +789,7 @@ color: #8f2f2f;
     align-content: center;
 }
 .area h2{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     cursor: pointer;
     font-family: sans-serif;
@@ -778,7 +802,7 @@ color: #8f2f2f;
     margin: 0;
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 31.1px;
     color: hsl(9 3% 78% / 44);
 }
@@ -799,8 +823,9 @@ color: #8f2f2f;
 }
 .third-sec h2{
     margin: 0;
-    font-size: 21px;
     cursor: default;
+    font-size: 21px;
+    font-family: serif;
     line-height: 26.1px;
     width: auto;
 }
@@ -808,7 +833,7 @@ color: #8f2f2f;
     width: 171px;
     margin: 0;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 00;
     font-family: sans-serif;
     font-weight: 500;
@@ -819,6 +844,7 @@ color: #8f2f2f;
 .third-secc-third{
     width: 98px;
     height: 23px;
+    font-size: 18px;
     background-color: #aa1c1c;
     position: relative;
     left: 51px;
@@ -833,6 +859,7 @@ color: #8f2f2f;
     font-family: sans-serif;
     font-weight: 600;
     color: white;
+    box-shadow: 0px 3px 9px 2px #59534E;
 padding: 3px 4px 4px 4px;
 }
 .national{
@@ -874,13 +901,20 @@ padding: 3px 4px 4px 4px;
 }
 .second-sec h2{
     margin: 3px;
+    cursor: default;
     font-size: 25px;
-    color: #201616;
+    color:#4f4747;
 }
 .second-sec p{
-    font-size: 15px;
-    padding-top: 18px;
+    font-size: 13px;
+   color: hsl(0deg 4.91% 44.49%);
+    padding-top: 26px;
+ cursor: pointer;
     width: 494px;
+    font-family: monospace;
+}
+#tell ::placeholder{
+    color: #33337f;
 }
 </style>
 </head>
@@ -956,17 +990,16 @@ height: 28px;
 </div>
 </div>
 </div>
-
 <!--  -->
 <div class="third-family">
 <div class="third-first">
 <h1>CHARGED WITH <span>DUI?</span></h1>
 <h2>FREE CASE EVALUTION</h2><img class="clipbord" src="/project4.html/dropbox/paste_board.gif" alt="" style="width: 100px;
 position: absolute;
-right: 20px;
-    top: 54px;">
+right: 8px;
+    top: 50px;">
 <p>Being charged with a DUI can be scary. get the help you deserve.</p>
-<h3>Click here to let us know
+<h3it >Click here to let us know
     how we can help you withyour case.
 </h3> 
 <hr>
@@ -1042,28 +1075,28 @@ top: 217px;">
 <!--  -->
             <div class="first-box">
             <hr style="height: 71px; margin: 0 ; width:13px;border: 0;
-background-color: #aa1c1c;">
+background-color: #8e2020;">
 <h4>DUI & DWI</h4>
 <h5>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h5>
 </div>
 <!--  -->
 <div class="second-box">
     <hr style="height: 81px; margin: 0 ; width:13px;border: 0;
-background-color: #aa1c1c;">
+background-color: #8e2020;">
     <h4>RECKLESS DRIVING</h4>
     <h6>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h6>
 </div>
 
 <div class="second-box">
     <hr style="height: 81px; margin: 0 ; width:13px;border: 0;
-background-color: #aa1c1c;">
+background-color: #8e2020;">
     <h4>SPEEDING TICKETS</h4>
     <h6>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h6>
 </div>
 
 <div class="second-box">
     <hr style="height: 81px; margin: 0 ; width:13px;border: 0;
-background-color: #aa1c1c;">
+background-color: #8e2020;">
     <h4>TRAFFIC VIOLATIONS</h4>
     <h6>LEARN MORE <img src="/project4.html//dropbox/bullet_white.gif" alt=""></h6>
 </div>
@@ -1079,8 +1112,8 @@ background-color: #aa1c1c;">
 </div>
 <div class="second-sec">
     <h2>&#60;H1&#62; PAGE TITLE HERE 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae mollitia adipisci non accusamus, iusto assumenda est nesciunt ducimus, voluptatum, rerum eaque? Soluta nisi quasi architecto nesciunt cum placeat aperiam alias.
-            Iusto quam, a ratione vitae voluptatem sint sequi nemo veritatis quaerat excepturi quasi unde odio et neque vel. Pariatur aliquid vero, repellendus voluptatum possimus vitae laboriosam magni quas fugit odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quidem deserunt repudiandae beatae itaque sequi voluptatibus, explicabo praesentium placeat doloribus voluptates qui consectetur?</p>
+        <p>Lorem ipsum dolor sit amet ectetur adipisicing elit. Repudiandae mollitia adipisci non accusamus, iunesciunt ducimus, voluptatum, rerum eaque? Soluta nisi quasi architecto nesciunt cum placeat aperiam alias.
+            Iusto quam, a ratione vitae vosint sequi nemo veritatis quaerat excepturi quasi unde  et neque vel. tur aliquid vero, repellendus voluptatum possimus vitae laboriosam magni quas fugit odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quidem deserunt repudiandae  itaque sequi voluptatibus, explicabo praesentium  doloribus voluptates qui consectetur?</p>
         </h2>
     </div>
 <div class="third-sec">
@@ -1135,7 +1168,8 @@ margin-top: 15px;">
 <div class="follow">
     <h3>FOLLOW <span>US</span></h3>
     <hr style="    width: 165px;
-    margin: 0;">
+    margin: 0;
+    box-shadow: 0px 4px 7px 1px #59534E;">
     <div class="finish">
         <img src="/project4.html/dropbox/fb_icon.gif" alt="" style="cursor: pointer;">
         <img src="/project4.html/dropbox/google_icon.gif" alt=""style="cursor: pointer;">
